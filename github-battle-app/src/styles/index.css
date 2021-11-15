@@ -1,0 +1,366 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.btn_primary {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem;
+  background-color: transparent;
+}
+
+.light button {
+  color: red !important;
+}
+
+.dark button {
+  background-color: green !important;
+}
+
+.btn_primary_dark button {
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0 1rem 0;
+}
+
+.btn_secondary {
+  height: 3rem;
+  border-radius: 8px;
+}
+
+.btn_sec_wrapper {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.dark_bg {
+  background-color: black !important;
+  height: auto;
+  color: #e7e3e3;
+}
+
+/* .dark_light {
+  background-color: white;
+  height: auto;
+} */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.active_navlink,
+.navlink {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.active_navlink {
+  color: red;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Cards */
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card_light,
+.card_dark {
+  width: 24%;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.card_light {
+  background-color: #ebebeb;
+  height: auto;
+}
+
+.card_dark {
+  background-color: #24282a;
+  height: auto;
+}
+
+.card_img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.score {
+  padding-bottom: 1.3rem;
+  font-size: 2rem;
+}
+.login {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.login h2 {
+  font-size: 1.5rem;
+  padding: 0.3rem 0;
+}
+
+.col img {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.col h2 {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card_content {
+  margin: 0 auto;
+  max-width: 10rem;
+}
+
+.user {
+  font-size: 1.3rem;
+}
+
+.test {
+  background-color: tomato;
+}
+
+/* Battle */
+
+.battle_header {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.instruction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instruction_col img {
+  width: 14rem;
+  height: 12rem;
+}
+
+.instruction_col {
+  flex: 0 1 31%;
+  text-align: center;
+}
+
+.instruction_col h2 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.form_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  padding: 2rem;
+  width: 49%;
+}
+
+.handle_input_dark,
+.handle_input_light {
+  flex: 0 1 68%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #e7ebec;
+  font-size: 1.2rem;
+}
+
+.btn_submit {
+  flex: 0 1 30%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #b7cbcf;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form_header {
+  width: 100%;
+  display: block;
+  padding-bottom: 0.4rem;
+  font-size: 1.4rem;
+}
+
+.user_info {
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  width: 70%;
+  margin-top: 3rem;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.user_info h3 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: red;
+}
+
+.user_profile {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin-right: 1.3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.player_header {
+  text-align: center;
+  padding: 4rem 0 1rem 0;
+
+  font-size: 2rem;
+}
+
+.cross img {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+.battle {
+  text-align: center;
+  background-color: aquamarine;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  background-color: #2286e4f5;
+  color: white;
+  margin: 1rem 0;
+}
+
+.battle_link {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.result_col img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 1rem;
+}
+
+.result_col {
+  display: flex;
+  text-align: center;
+  padding: 0.5rem 0;
+  align-items: center;
+}
+
+.result_login {
+  margin-bottom: 1.4rem;
+  font-size: 2rem;
+  color: red;
+}
+
+.result_img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.result_dark,
+.result_light {
+  background-color: #e8f1f5;
+  padding: 2rem;
+  flex: 0 1 40%;
+  text-align: center;
+  height: auto;
+}
+
+.result_dark {
+  background-color: rgb(36, 40, 42);
+  color: aliceblue;
+  height: auto;
+}
+
+.result_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.result_header {
+  padding: 1rem 0;
+}
+
+.result_score {
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.btn_reset {
+  padding: 0.5rem 1.2rem;
+  background-color: #0f5fbb;
+  text-decoration: none;
+  display: inline-block;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.btn_wrapper {
+  margin: 2rem 0;
+}
