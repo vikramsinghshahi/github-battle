@@ -78,6 +78,14 @@
   color: red;
 }
 
+.navlink:hover{
+  cursor: pointer;
+}
+
+.active_navlink:hover{
+  cursor: pointer;
+}
+
 .center {
   text-align: center;
 }
@@ -126,6 +134,7 @@
 .login h2 {
   font-size: 1.5rem;
   padding: 0.3rem 0;
+
 }
 
 .col img {
