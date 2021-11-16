@@ -92,7 +92,7 @@ class GitHubStars extends React.Component
                 {this.state.data ? (
                     <AllCard data={this.state.data} darkMode={this.props.darkMode} />
                 ) : (
-                    <h2 className="center ">Loading is this...</h2>
+                    <h2 className="center ">Loading data...</h2>
                 )}
             </main>
         );
