@@ -1,6 +1,6 @@
 function Players(props)
 {
-    console.log(props, 'Players');
+    console.log(props);
     let inputText1 = props.inputText1;
     let inputText2 = props.inputText2;
     return (

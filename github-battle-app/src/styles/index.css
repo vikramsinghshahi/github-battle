@@ -19,6 +19,13 @@
   margin: 0.5rem;
   background-color: transparent;
 }
+.btn_primary :hover {
+  cursor: pointer;
+}
+
+.header button:hover {
+  cursor: pointer;
+}
 
 .light button {
   color: red !important;
@@ -28,9 +35,18 @@
   background-color: green !important;
 }
 
+/* .light button,
+.dark button :hover {
+  cursor: pointer;
+} */
+
 .btn_primary_dark button {
   color: white;
 }
+
+/* .btn_primary_dark button :hover {
+  cursor: pointer;
+} */
 
 .header {
   display: flex;
@@ -48,6 +64,10 @@
   outline: none;
   border: none;
   background-color: transparent;
+}
+
+.btn_sec_wrapper:hover {
+  cursor: pointer;
 }
 
 .dark_bg {
@@ -72,17 +92,22 @@
 .navlink {
   font-size: 1rem;
   margin: 0.5rem;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
 
 .active_navlink {
   color: red;
+  background-color: #68d3e9;
 }
 
-.navlink:hover{
+.navlink:hover {
   cursor: pointer;
+  background-color: #b7cbcf;
 }
 
-.active_navlink:hover{
+.active_navlink:hover {
   cursor: pointer;
 }
 
@@ -134,7 +159,6 @@
 .login h2 {
   font-size: 1.5rem;
   padding: 0.3rem 0;
-
 }
 
 .col img {
@@ -225,6 +249,10 @@
   background-color: #b7cbcf;
   border-radius: 5px;
   font-size: 1.2rem;
+}
+
+.btn_submit:hover {
+  cursor: pointer;
 }
 
 .wrapper {

@@ -6,6 +6,7 @@ class GitHubBattle extends React.Component
 {
     render(props)
     {
+
         return (
             <main className="main">
                 <h1 className="battle_header">Instructions</h1>

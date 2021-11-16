@@ -24,6 +24,8 @@ class App extends React.Component
         };
     }
 
+
+
     handleSubmit = (event) =>
     {
         console.dir(event);
@@ -61,6 +63,7 @@ class App extends React.Component
         let { value } = target;
         let id = target.dataset.id;
         this.setState({ [id]: value });
+        console.log(this.state)
     };
 
     handleKeyPress = (event) =>
